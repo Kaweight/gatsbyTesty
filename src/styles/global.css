@@ -11,7 +11,8 @@ html, body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%);
+  margin: 24px 16px 24px 16px;
+  background: radial-gradient(at top left, rgb(57, 202, 221) 30%, rgb(17, 94, 194) 70%);
   background-repeat: no-repeat;
 }
 p {
@@ -24,25 +25,7 @@ p {
   max-width: 1200px;
   margin: 0 auto;
 }
-nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
-}
-nav .links {
-  display: inline-block;
-  text-align: right;
-}
-nav a {
-  display: inline-block;
-  margin-left: 20px;
-  font-weight: 400;
-  padding-bottom: 8px;
-  border-bottom: 3px solid transparent;
-}
-nav a:hover {
-  border-color: white;
-}
+
 footer p{
   text-align: center;
   color: #bbb;

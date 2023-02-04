@@ -1,9 +1,10 @@
-import { Link } from 'gatsby'
 import React from 'react'
+import { Link } from 'gatsby'
+import * as styles from '../styles/navigation.module.css'
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className={styles.Navbar}>
         <h1>Kitesurfing</h1>
         <div className="links">
             <Link to="/">Home</Link>
